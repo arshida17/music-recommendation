@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -999;
+    height: 100vh;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selfie {
+    z-index: 999;
+}
+
+video {
+    z-index: 999;
+    width: 50%;
+    height: 40vh;
+}
+
+.camera {
+    position: absolute;
+    width: 40vw;
+}
+
+button .upload {
+    font-size: 4rem;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+img.selfie {
+    width: 100px;
+}
+
+.preview {
+    width: 30vw;
+}
+
+button {
+    background: transparent;
+    /* border: none; */
+}
+
+.click-image {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
